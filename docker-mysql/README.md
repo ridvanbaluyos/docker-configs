@@ -1,23 +1,22 @@
 ### Usage
 1. Modify `.env` file and setup your password.
 ```
-POSTGRES_USER=postgres
-POSTGRES_PASSWORD=password
-PGDATA=./data
+MYSQL_USER=root
+MYSQL_PASSWORD=password
 ```
 
-2. Build Docker, and start PostgreSQL
+2. Build Docker, and start MySQL 
 ```
 docker-compose up --build -d
 ```
 
-3. Login to PostgreSQL
+3. Login to MySQL
 ```
-psql -h localhost -p15432 -U postgres
+mysql -h localhost -uroot -p -P 13306 --protocol=tcp
 ```
 (enter password)
 
-4. Stopping PostgreSQL
+4. Stopping MySQL
 ```
 docker-compose down
 ```
