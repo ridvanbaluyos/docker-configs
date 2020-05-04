@@ -14,11 +14,10 @@ http://localhost:8080/index.php
 docker-compose down
 ```
 
-####
+#### Notes
 The web app will is mounted in the `app` folder. Modify the contents and vhost config according to project.
 
 Example for Laravel, the document root should be:
 ```
 /var/www/html/app/public
-
 ```
