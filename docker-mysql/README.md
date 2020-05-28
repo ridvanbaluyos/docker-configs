@@ -1,8 +1,11 @@
 ### Usage
 1. Modify `.env` file and setup your password.
 ```
-MYSQL_USER=root
-MYSQL_PASSWORD=password
+MYSQL_USER=any_user_name
+MYSQL_PASSWORD=cT%482%s#ZG3
+
+MYSQL_ROOT_PASSWORD=EnlAw5l8V3#F
+
 ```
 
 2. Build Docker, and start MySQL 
